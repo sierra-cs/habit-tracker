@@ -1,0 +1,38 @@
+{
+  "name": "habit-tracker-api",
+  "version": "1.0.0",
+  "description": "Habit tracker REST API",
+  "keywords": [
+    "habit-tracker",
+    "express",
+    "typescript",
+    "rest-api"
+  ],
+  "private": true,
+  "homepage": "https://github.com/sierra-cs/habit-tracker#readme",
+  "bugs": {
+    "url": "https://github.com/sierra-cs/habit-tracker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sierra-cs/habit-tracker.git"
+  },
+  "license": "MIT",
+  "author": "Sierra C.S - SierraCS Studio",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
